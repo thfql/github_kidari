@@ -1,0 +1,89 @@
+a{
+    color: #eee;
+    cursor: pointer;
+}
+
+ul,li{
+    color: #eee;
+
+}
+
+h2,h3,p{
+    color: #eee;
+
+}
+
+
+.section_2, .section_3, .section_5, .section_6, footer{
+    background-color: #000;
+    padding: 150px 200px;
+}
+
+
+h3{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.mo_br{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+    .section_2, .section_3, .section_5, footer{
+        padding: 110px 130px;
+    }
+
+    .wrap .con_3_wrap, .wrap .con_wrap_5{
+        display: block;
+    }
+
+    .wrap .go_btn_b{
+        margin-right: 0;
+    }
+
+    .wrap .title_wrap p{
+        margin-bottom: 70px;
+    }
+
+    .wrap .title_wrap h2{
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .section_2, .section_3, .section_5, .wrap .section_6, footer{
+        padding: 50px 20px;
+    }
+
+    h3{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .mo_br{
+        display: block;
+    }
+
+    .pc_br{
+        display: none;
+    }
+    
+}
+
+body .wrap{
+    overflow-x: hidden;
+}
+
+
+/* 
+반응형에서 aos 작동안함
+섹션 3번 컨텐츠 하나씩 올라오게 aos하는법
+ */
+
+
